@@ -1,0 +1,185 @@
+✅ Sites recommandés pour apprendre et comprendre les langages & outils que tu utilises :
+-----------------------------------------------------------------------------------------
+
+🟦 React / React Native / JavaScript / TypeScript
+
+
+🔹 https://react.dev → Référence officielle React
+
+🔹 https://reactnative.dev → Doc officielle React Native
+
+🔹 https://www.typescriptlang.org/docs → Doc officielle TypeScript
+
+🔹 https://developer.mozilla.org (MDN) → 🔥 Le meilleur dictionnaire pour JavaScript & Web
+
+
+
+📚 Sites pédagogiques (cours gratuits/structurés)
+
+
+🧠 https://www.codecademy.com
+
+🎓 https://www.freecodecamp.org
+
+📺 https://www.youtube.com/@TheNetNinja → cours courts, clairs et progressifs (React, Firebase, etc.)
+
+🛠️ https://roadmap.sh → chemins d’apprentissage visuels (frontend, backend, mobile...)
+
+🧩 Dictionnaires et cheat sheets
+📘 https://devdocs.io → recherche rapide multi-technos (React, JS, TypeScript, etc.)
+
+📝 https://typescript-cheatsheet.vercel.app → génial pour React + TypeScript
+
+📦 https://npmjs.com → chercher n’importe quelle librairie (expo, firebase, etc.)
+
+
+
+
+
+
+
+
+🥇 Étape 1 — Recherche fonctionnelle (filtrage)
+🔧 Ce que tu fais ici ne casse rien d’autre. Tu travailles juste en local sur la liste déjà affichée.
+
+Objectifs :
+
+🔍 Filtrer par nom (tomate)
+
+🔖 Filtrer par tag (ex: fruit)
+
+➕ Ajouter des options comme contient, ne contient pas
+
+→ Tu modifies uniquement le composant index.tsx, sans toucher aux autres écrans.
+
+
+
+
+🥈 Étape 2 — Écran de détail d’un ingrédient
+Quand tu cliques sur une carte → nouvelle page avec + d’info
+
+Objectifs :
+
+Naviguer vers un nouvel écran (IngredientDetail)
+
+Passer les infos de la carte (via props ou navigation params)
+
+Afficher description, tags, recettes, etc.
+
+→ Ça prépare la base pour toutes les fonctionnalités futures.
+
+
+
+
+
+🥉 Étape 3 — Navigation globale et boutons
+Objectifs :
+
+Ajouter des icônes/boutons vers : Favoris, Profil, Accueil, etc.
+
+Choisir si tu veux :
+
+une barre de navigation en bas (Tabs)
+
+ou des boutons manuels en haut/dans l’écran
+
+
+
+
+
+🟨 Étape 4 — Favoris & gestion utilisateur
+Objectifs :
+
+Bouton « Ajouter aux favoris »
+
+Écran « Voir mes favoris »
+
+Plus tard : associer ça à un compte Firebase
+
+
+
+
+
+🟩 Étape 5 — Firebase
+Quand ton app fonctionne bien en local, tu peux passer à la vraie base de données :
+
+Authentification (compte utilisateur)
+
+Ingrédients dynamiques
+
+Ajout de cartes personnalisées
+
+✅ En résumé (ordre conseillé) :
+Barre de recherche + filtrage
+
+Écran de détail d’un ingrédient
+
+Navigation (boutons/menu)
+
+Favoris
+
+Firebase
+
+
+
+
+
+
+
+- boutton de filtre de recherche a la pointe droite de la barre de recherche 
+(contains ingredient, does not contain ingredient, is caracteristic, is not caracteristic)
+
+- boutton qui affiche une legende en démontrant que veux dire chacun des tags
+
+
+
+
+
+
+
+
+//----------------------------------------------------------------------------------//
+//----------------------------------------------------------------------------------//
+//                                                                                  //    
+//                                  TAGS A FAIRE :                                  //
+//                                                                                  //    
+//----------------------------------------------------------------------------------//
+//----------------------------------------------------------------------------------//
+
+                                    
+
+| **Tag**        | **Icône suggérée**             | **Description visuelle**         |
+| -------------- | ------------------------------ | -------------------------------- |
+| Se mange chaud | 🔥 (comme ton image de flamme) | Cercle rouge avec flamme blanche |
+| Se mange froid | ❄️ (comme ton flocon de neige) | Cercle bleu avec flocon          |
+| Salé           | 🧂 (sel)                       | Sel shaker ou cristaux de sel    |
+| Sucré          | 🍬 / 🍯                        | Bonbon ou pot de miel            |
+| Amer           | 🍫 noir ou une icône de cacao  | Carré chocolat noir              |
+| Acide          | 🍋 citron ou ⚠️ triangle acide | Tranche de citron jaune vif      |
+| Piquant        | 🌶️ ou icône piment rouge      | Petit piment avec flamme         |
+
+
+
+| **Tag** | **Icône suggérée** | **Description visuelle**           |
+| ------- | ------------------ | ---------------------------------- |
+| Dur     | 🪨 ou 🔨 marteau   | Icône de roche ou enclume          |
+| Mou     | 🧸 / mousse        | Coussin ou texture floue           |
+| Sec     | 🌵 cactus          | Texture craquelée ou feuille sèche |
+| Humide  | 💧 goutte          | Goutte bleue ou effet mouillé      |
+| Juteux  | 💧 goutte ou       | A VOIR AVEC CHATGPT                |
+            jet de liquide                
+
+
+
+
+| **Tag**         | **Icône suggérée**         | **Description visuelle**        |
+| --------------- | -------------------------- | ------------------------------- |
+| Viande          | 🥩 steak ou 🐄             | Icône de côtelette              |
+| Fruit           | 🍎 pomme / 🍌 banane       | Icône générique fruitée         |
+| Légume          | 🥦 brocoli / 🍆 aubergine  | Brocoli vert                    |
+| Légumineuse     | 🌰 haricot ou pois chiche  | Haricots / fèves stylisés       |
+| Fromage         | 🧀 fromage jaune           | Tranche de fromage triangulaire |
+| Produit laitier | 🥛 verre de lait ou yaourt | Pot avec une cuillère           |
+| Céréales        | 🌾 épi ou bol de céréales  | Épi de blé ou bol               |
+| Pâtisserie      | 🧁 cupcake ou 🍩 donut     | Gâteau rose ou sucré            |
+| Junk food       | 🍔 burger ou 🍟 frites     | Combo burger-frites             |
