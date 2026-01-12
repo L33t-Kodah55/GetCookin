@@ -1,185 +1,139 @@
-✅ Sites recommandés pour apprendre et comprendre les langages & outils que tu utilises :
------------------------------------------------------------------------------------------
+GetCookin
 
-🟦 React / React Native / JavaScript / TypeScript
+//******************* [🇫🇷 Français](#français) *******************//
 
+GetCookin est une application mobile développée avec React Native et Expo. Elle vise à aider les utilisateurs à explorer la cuisine et la gastronomie en fonction de leurs goûts, de leurs préférences et des ingrédients dont ils disposent.
+L’objectif du projet est d’offrir un point de repère lorsque quelqu’un ne sait pas quoi manger ou ne sait pas quoi faire avec les ingrédients présents dans son réfrigérateur. Plutôt que de partir directement de recettes, GetCookin commence par les ingrédients et les préférences (salé, sucré, acide, amer, etc.) afin de suggérer différents types de mets ou de préparations possibles.
+Ce projet est encore à un stade préliminaire et a été développé principalement dans un contexte d’apprentissage du développement mobile avec React Native et Expo.
 
-🔹 https://react.dev → Référence officielle React
 
-🔹 https://reactnative.dev → Doc officielle React Native
+## Fonctionnalités
+-	Recherche libre d’ingrédients
+-	Système de filtres avancés :
+-	Inclusion et exclusion d’ingrédients
+-	Inclusion et exclusion de tags (salé, sucré, dessert, repas, etc.)
+-	Filtrage par catégorie
+-	Navigation dans un catalogue d’ingrédients et de mets
+-	Cartes d’ingrédients animées pour une meilleure expérience utilisateur
+-	Suggestion intelligente lorsqu’aucun résultat exact n’est trouvé
 
-🔹 https://www.typescriptlang.org/docs → Doc officielle TypeScript
 
-🔹 https://developer.mozilla.org (MDN) → 🔥 Le meilleur dictionnaire pour JavaScript & Web
+## Stack technologique
+- Expo
+- Expo Router
+- React Native
+- TypeScript / JavaScript
 
 
+## Données et architecture
+- Aucune base de données ou backend pour le moment
+- Les données des ingrédients (nom, tags, catégories) sont stockées localement dans le projet
+- Les images des ingrédients sont hébergées à partir de sources externes
+- Les valeurs nutritionnelles, calories et quantités ne sont pas encore prises en charge
 
-📚 Sites pédagogiques (cours gratuits/structurés)
+## Démarrage du projet
+1. Installer les dépendances : npm install
+2. Lancer l’application : npx expo start
 
+## Limites connues
+-	Aucun système de comptes ou d’authentification utilisateur
+-	Absence d’option de changement de langue pour le moment (certains textes sont codés en dur)
+-	Interface utilisateur simple et en phase initiale
+-	L’application doit actuellement être exécutée via Expo Go et n’est pas publiée sur les boutiques
 
-🧠 https://www.codecademy.com
+## Ameliorations prévues
+-	Ajout d’une option de changement de langue
+-	Possibilité d’ouvrir chaque carte afin d’en afficher les détails
+-	Création de comptes utilisateurs avec une liste de favoris
+-	Possibilité pour les utilisateurs de créer leurs propres cartes de mets ou de desserts
+-	Fonctionnalité de « réfrigérateur » permettant de suivre les ingrédients disponibles et de suggérer des repas
+-	Mise en place d’un fil de découverte personnalisé pour faire découvrir de nouveaux mets et apprentissages culinaires
 
-🎓 https://www.freecodecamp.org
 
-📺 https://www.youtube.com/@TheNetNinja → cours courts, clairs et progressifs (React, Firebase, etc.)
+## Statut du projet
+GetCookin est un projet en cours de développement, réalisé principalement à des fins d’apprentissage et d’exploration du développement mobile avec React Native et Expo.
 
-🛠️ https://roadmap.sh → chemins d’apprentissage visuels (frontend, backend, mobile...)
 
-🧩 Dictionnaires et cheat sheets
-📘 https://devdocs.io → recherche rapide multi-technos (React, JS, TypeScript, etc.)
+## DÉMONSTRATIONS
+CAPTURE D'ÉCRANS ET VIDEOS :
 
-📝 https://typescript-cheatsheet.vercel.app → génial pour React + TypeScript
+1.   https://youtube.com/shorts/dbnNs9_oic4
+2.   https://youtube.com/shorts/U4QvWBVw-2Q
 
-📦 https://npmjs.com → chercher n’importe quelle librairie (expo, firebase, etc.)
 
 
 
+//******************* [🇬🇧 English](#english) *******************//
 
+GetCookin
+GetCookin is a React Native mobile application built with Expo. It is designed to help users explore cooking and gastronomy based on their tastes, preferences, and the ingredients they already have.
+The goal of the project is to provide a reference point when someone does not know what to eat or what to do with the ingredients available in their refrigerator. Instead of starting from recipes, GetCookin starts from ingredients and user preferences (salty, sweet, acidic, bitter, etc.) to suggest different types of dishes or preparations.
+This project is still at an early stage and was developed primarily as a learning project focused on mobile development with React Native and Expo.
 
+## Features
+- Free-text ingredient search
+- Advanced filtering system:
+- Include and exclude ingredients
+- Include and exclude tags (salty, sweet, dessert, meal, etc.)
+- Category-based filtering
+- Browsing a catalog of ingredients and food items
+- Animated ingredient cards for improved user experience
+- Smart suggestion when no exact match is found
 
 
+## Tech Stack
+- Expo
+- React Native
+- TypeScript / JavaScript
+- Expo Router
 
-🥇 Étape 1 — Recherche fonctionnelle (filtrage)
-🔧 Ce que tu fais ici ne casse rien d’autre. Tu travailles juste en local sur la liste déjà affichée.
 
-Objectifs :
 
-🔍 Filtrer par nom (tomate)
+## Data and Architecture
+- No backend or database at the moment
+- Ingredient data (names, tags, categories) is stored locally in the project
+- Ingredient images are hosted from external sources
+- Nutritional values, calories, and quantities are not implemented yet
 
-🔖 Filtrer par tag (ex: fruit)
 
-➕ Ajouter des options comme contient, ne contient pas
+## Getting Started
+1.	Install dependencies : npm install
 
-→ Tu modifies uniquement le composant index.tsx, sans toucher aux autres écrans.
+2.	Start application : npx expo start
 
 
+## Known Limitations
+-	No user accounts or authentication system
+-	No data persistence
+-	No language switching option yet (some text is hardcoded)
+-	Basic UI and early-stage design
+-	The application currently runs only through Expo Go and is not published on app stores
 
+## Planned Improvements
+-	Add language selection
+-	Allow opening each card to display detailed information
+-	User accounts with a favorites list
+-	Allow users to create their own food and dessert cards
+-	“Fridge” feature to track available ingredients and suggest meals
+-	Personalized discovery feed to help users discover new foods and learn about gastronomy
 
-🥈 Étape 2 — Écran de détail d’un ingrédient
-Quand tu cliques sur une carte → nouvelle page avec + d’info
 
-Objectifs :
+## Project Status
+GetCookin is a work-in-progress project developed mainly for learning purposes and to explore mobile development using React Native and Expo.
 
-Naviguer vers un nouvel écran (IngredientDetail)
 
-Passer les infos de la carte (via props ou navigation params)
+## DEMONSTRATIONS
+VIDEOS :
 
-Afficher description, tags, recettes, etc.
+1.   https://youtube.com/shorts/dbnNs9_oic4
+2.   https://youtube.com/shorts/U4QvWBVw-2Q
 
-→ Ça prépare la base pour toutes les fonctionnalités futures.
 
 
 
 
 
-🥉 Étape 3 — Navigation globale et boutons
-Objectifs :
 
-Ajouter des icônes/boutons vers : Favoris, Profil, Accueil, etc.
 
-Choisir si tu veux :
 
-une barre de navigation en bas (Tabs)
 
-ou des boutons manuels en haut/dans l’écran
-
-
-
-
-
-🟨 Étape 4 — Favoris & gestion utilisateur
-Objectifs :
-
-Bouton « Ajouter aux favoris »
-
-Écran « Voir mes favoris »
-
-Plus tard : associer ça à un compte Firebase
-
-
-
-
-
-🟩 Étape 5 — Firebase
-Quand ton app fonctionne bien en local, tu peux passer à la vraie base de données :
-
-Authentification (compte utilisateur)
-
-Ingrédients dynamiques
-
-Ajout de cartes personnalisées
-
-✅ En résumé (ordre conseillé) :
-Barre de recherche + filtrage
-
-Écran de détail d’un ingrédient
-
-Navigation (boutons/menu)
-
-Favoris
-
-Firebase
-
-
-
-
-
-
-
-- boutton de filtre de recherche a la pointe droite de la barre de recherche 
-(contains ingredient, does not contain ingredient, is caracteristic, is not caracteristic)
-
-- boutton qui affiche une legende en démontrant que veux dire chacun des tags
-
-
-
-
-
-
-
-
-//----------------------------------------------------------------------------------//
-//----------------------------------------------------------------------------------//
-//                                                                                  //    
-//                                  TAGS A FAIRE :                                  //
-//                                                                                  //    
-//----------------------------------------------------------------------------------//
-//----------------------------------------------------------------------------------//
-
-                                    
-
-| **Tag**        | **Icône suggérée**             | **Description visuelle**         |
-| -------------- | ------------------------------ | -------------------------------- |
-| Se mange chaud | 🔥 (comme ton image de flamme) | Cercle rouge avec flamme blanche |
-| Se mange froid | ❄️ (comme ton flocon de neige) | Cercle bleu avec flocon          |
-| Salé           | 🧂 (sel)                       | Sel shaker ou cristaux de sel    |
-| Sucré          | 🍬 / 🍯                        | Bonbon ou pot de miel            |
-| Amer           | 🍫 noir ou une icône de cacao  | Carré chocolat noir              |
-| Acide          | 🍋 citron ou ⚠️ triangle acide | Tranche de citron jaune vif      |
-| Piquant        | 🌶️ ou icône piment rouge      | Petit piment avec flamme         |
-
-
-
-| **Tag** | **Icône suggérée** | **Description visuelle**           |
-| ------- | ------------------ | ---------------------------------- |
-| Dur     | 🪨 ou 🔨 marteau   | Icône de roche ou enclume          |
-| Mou     | 🧸 / mousse        | Coussin ou texture floue           |
-| Sec     | 🌵 cactus          | Texture craquelée ou feuille sèche |
-| Humide  | 💧 goutte          | Goutte bleue ou effet mouillé      |
-| Juteux  | 💧 goutte ou       | A VOIR AVEC CHATGPT                |
-            jet de liquide                
-
-
-
-
-| **Tag**         | **Icône suggérée**         | **Description visuelle**        |
-| --------------- | -------------------------- | ------------------------------- |
-| Viande          | 🥩 steak ou 🐄             | Icône de côtelette              |
-| Fruit           | 🍎 pomme / 🍌 banane       | Icône générique fruitée         |
-| Légume          | 🥦 brocoli / 🍆 aubergine  | Brocoli vert                    |
-| Légumineuse     | 🌰 haricot ou pois chiche  | Haricots / fèves stylisés       |
-| Fromage         | 🧀 fromage jaune           | Tranche de fromage triangulaire |
-| Produit laitier | 🥛 verre de lait ou yaourt | Pot avec une cuillère           |
-| Céréales        | 🌾 épi ou bol de céréales  | Épi de blé ou bol               |
-| Pâtisserie      | 🧁 cupcake ou 🍩 donut     | Gâteau rose ou sucré            |
-| Junk food       | 🍔 burger ou 🍟 frites     | Combo burger-frites             |
