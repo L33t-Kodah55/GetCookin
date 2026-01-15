@@ -79,10 +79,7 @@ GetCookin est un projet en cours de développement, réalisé principalement à 
 
 
 ## DÉMONSTRATIONS
-CAPTURE D'ÉCRANS ET VIDEOS :
-
-1.   https://youtube.com/shorts/MHrz8fysBi8
-2.   https://youtube.com/shorts/U4QvWBVw-2Q
+CAPTURE D'ÉCRANS ET VIDEOS : https://www.youtube.com/playlist?list=PLWSB8-Q40FmopCfNW9L2q2FEWd43C5J4Z
 
 
 
@@ -168,11 +165,7 @@ GetCookin is a work-in-progress project developed mainly for learning purposes a
 
 
 ## DEMONSTRATIONS
-VIDEOS :
-
-1.   https://youtube.com/shorts/MHrz8fysBi8
-2.   https://youtube.com/shorts/U4QvWBVw-2Q
-
+VIDEOS : https://www.youtube.com/playlist?list=PLWSB8-Q40FmopCfNW9L2q2FEWd43C5J4Z
 
 
 
