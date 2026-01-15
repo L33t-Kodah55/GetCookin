@@ -89,10 +89,10 @@ CAPTURE D'ÉCRANS ET VIDEOS :
 
 //******************* [🇬🇧 English](#english) *******************//
 
-GetCookin
 GetCookin is a React Native mobile application built with Expo. It is designed to help users explore cooking and gastronomy based on their tastes, preferences, and the ingredients they already have.
 The goal of the project is to provide a reference point when someone does not know what to eat or what to do with the ingredients available in their refrigerator. Instead of starting from recipes, GetCookin starts from ingredients and user preferences (salty, sweet, acidic, bitter, etc.) to suggest different types of dishes or preparations.
 This project is still at an early stage and was developed primarily as a learning project focused on mobile development with React Native and Expo.
+
 
 ## Features
 - Free-text ingredient search
