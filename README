@@ -31,15 +31,39 @@ Ce projet est encore à un stade préliminaire et a été développé principale
 - Les images des ingrédients sont hébergées à partir de sources externes
 - Les valeurs nutritionnelles, calories et quantités ne sont pas encore prises en charge
 
+
 ## Démarrage du projet
+
+*** Prérequis *** :
++ Node.js (inclus npm)
++ Ordinateur (MacOS ou Windows)
++ Téléphone iOS/Android avec l’app "Expo Go" installée
++ Dossier Projet
+
+
+Dans le terminal :
+
 1. Installer les dépendances : npm install
 2. Lancer l’application : npx expo start
+
+
+Sur votre téléphone (Android ou iPhone) :
+
+1. Installer "Expo Go" (App Store / Google Play)
+2. Scanner le code QR affiché par Expo
+    Android : scanner directement dans Expo Go
+    iPhone : scanner avec l’app Caméra, puis ouvrir dans Expo Go
+3. Commencer à explorer l'application ;)
+
+**** Si ça bug : npx expo start -c ****
+
 
 ## Limites connues
 -	Aucun système de comptes ou d’authentification utilisateur
 -	Absence d’option de changement de langue pour le moment (certains textes sont codés en dur)
 -	Interface utilisateur simple et en phase initiale
 -	L’application doit actuellement être exécutée via Expo Go et n’est pas publiée sur les boutiques
+
 
 ## Ameliorations prévues
 -	Ajout d’une option de changement de langue
@@ -88,7 +112,6 @@ This project is still at an early stage and was developed primarily as a learnin
 - Expo Router
 
 
-
 ## Data and Architecture
 - No backend or database at the moment
 - Ingredient data (names, tags, categories) is stored locally in the project
@@ -97,9 +120,29 @@ This project is still at an early stage and was developed primarily as a learnin
 
 
 ## Getting Started
-1.	Install dependencies : npm install
 
-2.	Start application : npx expo start
+*** Prerequisites *** :
+
++ Node.js (includes npm)
++ A computer (macOS or Windows)
++ An iOS/Android phone with the Expo Go app installed
++ Project folder
+
+In the terminal :
+
+1. Install dependencies : npm install
+2. Start the app : npx expo start
+
+
+On your phone (Android or iPhone) :
+
+1. Install Expo Go (App Store / Google Play)
+2. Scan the QR code shown by Expo
+    Android : scan directly in Expo Go
+    iPhone : scan with the Camera app, then open in Expo Go
+3. Start exploring the app ;)
+
+**** If it bugs : npx expo start -c ****
 
 
 ## Known Limitations
@@ -108,6 +151,7 @@ This project is still at an early stage and was developed primarily as a learnin
 -	No language switching option yet (some text is hardcoded)
 -	Basic UI and early-stage design
 -	The application currently runs only through Expo Go and is not published on app stores
+
 
 ## Planned Improvements
 -	Add language selection
